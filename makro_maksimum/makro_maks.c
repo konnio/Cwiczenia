@@ -1,6 +1,6 @@
 // Podstawy programowania - Cwiczenia
 // 11.01.2018
-// Cwiczenie 1 - Makro obliczajace maksimum
+// Cwiczenie 1 - Makro obliczajace maksimum i minimum
 
 #include<stdio.h>
 // a > b ? a : b
