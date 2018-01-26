@@ -6,4 +6,5 @@ int IR (int n)
 }
 
 # Praca domowa
-Przygotować program do obliczania Ciagu Fibonacciego rekurencyjnie
+1. Przygotować program do obliczania Ciagu Fibonacciego rekurencyjnie
+2. NWD - iteracyjnie i rekurencyjnie
