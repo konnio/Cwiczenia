@@ -13,7 +13,7 @@ double silnia_rek (int x)
 
 double silnia_rek2 (int x)
 {
-		return (x > 1) ? : x * silnia_rek(x-1) : x;
+		return (x > 1) ? x * silnia_rek(x-1) : 1;
 }
 
 
@@ -25,7 +25,7 @@ int main (){
 
 	printf("Podaj liczbe n a oblicze n! : \n"); scanf("%d", &n);
 
-	silnia = silnia_rek(n);
+	silnia = silnia_rek2(n);
 
 	printf("wartosc n! wynosi: %lf \n", silnia);
 
