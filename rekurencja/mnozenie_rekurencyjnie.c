@@ -17,8 +17,13 @@ int mnoz_rek (int x, int y)
 	if ( y == 1) {
 		return x;
 	} else {
-		return x = mnoz_rek (x, y-1);
+		return x + mnoz_rek (x, y-1);
 	}
+}
+
+int mnoz_rek2 (int x, int y)
+{
+	return (y ==1) ? x : x + mnoz_rek(x, y-1);
 }
 	
 
